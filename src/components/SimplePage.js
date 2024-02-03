@@ -4,8 +4,26 @@ import './SimplePage.css';
 const SimplePage = () => {
     return (
         <div>
-            <h1>helo</h1>
-            
+           <div className='formContainer'>
+            <div className="formContainerMain">
+            <form action="">
+                <div className="nameCon">
+                <input type="text" name='' placeholder='name' className='nameField' id='nameField' />
+                </div>
+              <div className="ageCon">
+              <input type="text" name='' placeholder='age' className='nameField' id='nameField' />
+
+              </div>
+               <div className="homeCon">
+               <input type="text" name='' placeholder='home' className='nameField' id='nameField' />
+               </div>
+                <button>submit</button>
+            </form>
+
+            </div>
+          
+
+           </div>
         </div>
     );
 };
